@@ -1,0 +1,21 @@
+body, html{
+    margin: inherit;
+}
+
+
+.home__content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    &__left{
+        width: 25vw;
+        height: 100vh;
+        background-color: blue;
+    }
+    &__right{
+        width: 75vw;
+        height: 100vh;
+        background-color: blueviolet;
+    }
+}
